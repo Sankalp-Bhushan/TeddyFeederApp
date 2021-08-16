@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+     <LinearLayout
+         android:id="@+id/activity_main"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         tools:context=".MainActivity">
+
+          <ImageView
+              android:id="@+id/image_view_cookie"
+              android:layout_width="wrap_content"
+              android:layout_height="583dp"
+              android:scaleType="fitXY"
+              android:src="@drawable/before_cookie" />
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#E36868"
+              android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/text_mine"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="20sp"
+                   android:text="I AM VERY HUNGRY"
+                   android:textColor="@color/black"
+                   android:textSize="34sp" />
+
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:onClick="eatCookie"
+                   android:text="EAT COOKIE"
+                   android:textColor="@color/black"
+                   android:visibility="visible"
+                   app:backgroundTint="#DCE30C" />
+
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:onClick="eatChapati"
+                   android:text="EAT CHAPATI"
+                   android:textColor="@color/black"
+                   android:visibility="visible"
+                   app:backgroundTint="#DCE30C" />
+
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:onClick="eatBanana"
+                   android:text="EAT BANANA"
+                   android:textColor="@color/black"
+                   android:visibility="visible"
+                   app:backgroundTint="#DCE30C" />
+
+               <Button
+                   android:layout_width="425dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_horizontal"
+                   android:onClick="eatEggs"
+                   android:text="EAT EGGS"
+                   android:textAlignment="center"
+                   android:textColor="@color/black"
+                   android:visibility="visible"
+                   app:backgroundTint="#DCE30C" />
+
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:onClick="eatChicken"
+                   android:text="EAT CHICKEN"
+                   android:textColor="@color/black"
+                   android:visibility="visible"
+                   app:backgroundTint="#DCE30C" />
+
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:onClick="feedMe"
+                   android:text="FEED NEXT TEDDY"
+                   android:textColor="@color/black"
+                   android:visibility="visible"
+                   app:backgroundTint="#1976D2" />
+          </LinearLayout>
+     </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
